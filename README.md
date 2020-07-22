@@ -15,7 +15,7 @@ Magenta FileManager can be use as an internal module or an external microservice
 
 ### Docker
 
-- Run `docker run --name magentafilemanager orchardproject/orchardcore-cms-linux:latest`
+- Run `docker run --name magentafilemanager devlnull/magentafilemanager:latest`
 
 Docker images and parameters can be found at <https://hub.docker.com/u/devlnull/>
 

@@ -1,0 +1,24 @@
+﻿{
+  "iisSettings": {
+    "anonymousAuthentication": true, 
+    "iisExpress": {
+      "applicationUrl": "http://localhost:55555",
+      "sslPort": 55556
+    }
+  },
+  "profiles": {
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "Magenta.FileManager.Web": {
+      "commandName": "Project",
+      "applicationUrl": "https://localhost:5556;http://localhost:5555",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

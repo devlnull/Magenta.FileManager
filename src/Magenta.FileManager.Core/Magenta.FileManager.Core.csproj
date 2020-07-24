@@ -4,4 +4,8 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Magenta.FileManager.Abstractions\Magenta.FileManager.Abstractions.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -10,7 +10,8 @@ namespace Magenta.FileManager.Abstractions
         string DirectoryPath { get; }
         long Size { get; }
         DateTime CreateDate { get; }
-        DateTime LastModified { get; }
-        public Guid UniqueId { get; set; }
+        DateTime ModifyDate{ get; }
+        bool IsDeleted { get; }
+        Guid UniqueId { get; }
     }
 }
